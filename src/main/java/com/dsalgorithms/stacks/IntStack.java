@@ -8,7 +8,7 @@ public class IntStack {
 	private int size;
 	private int top;
 
-	// Takes the default size as 50
+	// Takes the default size as 50 ..
 	 public IntStack() {
 		this.size = 50;
 		setSizeAndTop();

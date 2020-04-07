@@ -76,7 +76,7 @@ public class AddUptoANumber {
     public boolean hasPairWithSum2(int[] numbers, int sum) {
 
         List<Integer> list = new ArrayList();
-        list.stream().map()
+        //list.stream().map()
 
 		// Linear O(n)  {1,3,4,4,6,7,9,10,58}
         for (int num : numbers) {
