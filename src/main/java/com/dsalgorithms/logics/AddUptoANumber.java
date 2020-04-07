@@ -9,7 +9,7 @@ public class AddUptoANumber {
      * Assume that input contains positives and negatives Return first pair of
      * numbers
      *
-     * @return
+     * @return stack values
      */
     public int[] hasPairEqualToSum(int[] numbers, int sum) {
         int length = numbers.length;
@@ -60,7 +60,7 @@ public class AddUptoANumber {
     }
 
     public int[] hasPairWithSum(int[] numbers, int sum) {
-
+    // Initial
         int low = 0;
         int high = numbers.length - 1;
         while (low < high) {
