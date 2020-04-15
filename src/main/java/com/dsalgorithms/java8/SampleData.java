@@ -24,6 +24,7 @@ public class SampleData {
         NAMES.add(new Person("Ravi", 3));
         NAMES.add(new Person("Sunitha", 4));
         NAMES.add(new Person("Alan walker", 5));
+        NAMES.add(new Person("Salena Gomez", 6));
     }
 
 }
