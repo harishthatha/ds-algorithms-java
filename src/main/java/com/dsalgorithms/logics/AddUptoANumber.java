@@ -60,7 +60,7 @@ public class AddUptoANumber {
     }
 
     public int[] hasPairWithSum(int[] numbers, int sum) {
-    // Initial
+        // Initial
         int low = 0;
         int high = numbers.length - 1;
         while (low < high) {
@@ -76,9 +76,7 @@ public class AddUptoANumber {
     public boolean hasPairWithSum2(int[] numbers, int sum) {
 
         List<Integer> list = new ArrayList();
-        //list.stream().map()
-
-		// Linear O(n)  {1,3,4,4,6,7,9,10,58}
+        // Linear O(n)  {1,3,4,4,6,7,9,10,58}
         for (int num : numbers) {
             if (list.contains(num)) {
                 System.out.println(num);

@@ -26,7 +26,7 @@ public class Factorial {
         //O(1) space complexity
         System.out.println("In single line solution");
         //Calculates from right to left n loops
-        for (long i = num-1; i > 0; i--) {
+        for (long i = num - 1; i > 0; i--) {
             System.out.println(i + " " + fact);
             fact *= i;
         }
