@@ -17,7 +17,7 @@ public class Trick1Test {
     }
 
     @Test
-     public void testTrick1(){
+    public void testTrick1() {
         trick1.trick1();
     }
 

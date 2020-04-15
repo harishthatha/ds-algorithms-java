@@ -19,13 +19,13 @@ public class FactorialTest {
     }
 
     @Test
-    void testFindFactorial () {
-        assertEquals(1307674368000L,factorial.findFactorial(15));
+    void testFindFactorial() {
+        assertEquals(1307674368000L, factorial.findFactorial(15));
         System.out.println("\n");
-        assertEquals(1307674368000L,factorial.findFactorial2(15));
+        assertEquals(1307674368000L, factorial.findFactorial2(15));
         System.out.println("\n");
-        assertEquals(2432902008176640000L,factorial.findFactorial(20));
+        assertEquals(2432902008176640000L, factorial.findFactorial(20));
         System.out.println("\n");
-        assertEquals(2432902008176640000L,factorial.findFactorial2(20));
+        assertEquals(2432902008176640000L, factorial.findFactorial2(20));
     }
 }
