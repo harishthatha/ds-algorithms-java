@@ -12,7 +12,7 @@ class TestBasics {
 		queue.add(74);
 		queue.remove();
 		System.out.println(queue.peek());
-		System.out.println(basics.checkGivenName("harish"));
+		System.out.println(basics.checkGivenName("harish"));//
 
 	}
 }
