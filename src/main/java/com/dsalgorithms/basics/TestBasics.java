@@ -11,7 +11,7 @@ class TestBasics {
 		Queue<Integer> queue = new LinkedList<>();
 		queue.add(2);
 		queue.add(35);
-		queue.add(74); //
+		queue.add(74);
 		queue.remove();
 		System.out.println(queue.peek());
 		System.out.println(basics.checkGivenName("harisha"));
